@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A3FA4DA730D84EDCEA6636E /* Pods_SwiftCourseUnitTestUdemy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC63EF4FBF2E50F2E8DE1F24 /* Pods_SwiftCourseUnitTestUdemy.framework */; };
+		95FB82E7A15040CFEABC571B /* Pods_SwiftCourseUnitTestUdemyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3941B1585203CDCCED6E8517 /* Pods_SwiftCourseUnitTestUdemyTests.framework */; };
+		E23D66E92FE5C2A87FE061D6 /* Pods_SwiftCourseUnitTestUdemy_SwiftCourseUnitTestUdemyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DFF4966AF5E9AF9C9F1550 /* Pods_SwiftCourseUnitTestUdemy_SwiftCourseUnitTestUdemyUITests.framework */; };
+		EC0655D2297FED5F0067A837 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0655D1297FED5F0067A837 /* Temperature.swift */; };
+		EC0655D4297FED840067A837 /* TemperatureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0655D3297FED840067A837 /* TemperatureTest.swift */; };
+		EC0655D6297FEF5F0067A837 /* StringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0655D5297FEF5F0067A837 /* StringManager.swift */; };
+		EC0655D8297FEFBC0067A837 /* StringManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0655D7297FEFBC0067A837 /* StringManagerTest.swift */; };
+		EC0655DB298005D70067A837 /* ValidNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0655DA298005D70067A837 /* ValidNumber.swift */; };
+		EC0655DE298008670067A837 /* ValidNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0655DD298008670067A837 /* ValidNumberTest.swift */; };
+		EC0655E0298010130067A837 /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0655DF298010130067A837 /* Add.swift */; };
 		EC9B948F297EDD3B00C14E3D /* SwiftCourseUnitTestUdemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B948E297EDD3B00C14E3D /* SwiftCourseUnitTestUdemyApp.swift */; };
 		EC9B9491297EDD3B00C14E3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B9490297EDD3B00C14E3D /* ContentView.swift */; };
 		EC9B9493297EDD3D00C14E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9B9492297EDD3D00C14E3D /* Assets.xcassets */; };
@@ -14,6 +24,8 @@
 		EC9B94A0297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B949F297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyTests.swift */; };
 		EC9B94AA297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B94A9297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyUITests.swift */; };
 		EC9B94AC297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B94AB297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyUITestsLaunchTests.swift */; };
+		EC9B94BA297EDE0700C14E3D /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B94B9297EDE0700C14E3D /* Calculator.swift */; };
+		EC9B94BD297EE00800C14E3D /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B94BC297EE00800C14E3D /* CalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		216318B38943B7CFDF35724C /* Pods-SwiftCourseUnitTestUdemy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCourseUnitTestUdemy.release.xcconfig"; path = "Target Support Files/Pods-SwiftCourseUnitTestUdemy/Pods-SwiftCourseUnitTestUdemy.release.xcconfig"; sourceTree = "<group>"; };
+		372F4A3D44B7EF9157EB7260 /* Pods-SwiftCourseUnitTestUdemyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCourseUnitTestUdemyTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftCourseUnitTestUdemyTests/Pods-SwiftCourseUnitTestUdemyTests.release.xcconfig"; sourceTree = "<group>"; };
+		3941B1585203CDCCED6E8517 /* Pods_SwiftCourseUnitTestUdemyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCourseUnitTestUdemyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DF611A2549D50BA75EA238 /* Pods-SwiftCourseUnitTestUdemyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCourseUnitTestUdemyTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCourseUnitTestUdemyTests/Pods-SwiftCourseUnitTestUdemyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B601AAC6035DE6F91D31ADC /* Pods-SwiftCourseUnitTestUdemy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCourseUnitTestUdemy.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCourseUnitTestUdemy/Pods-SwiftCourseUnitTestUdemy.debug.xcconfig"; sourceTree = "<group>"; };
+		65D4B8EBC68750AAA22F602F /* Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests/Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4DFF4966AF5E9AF9C9F1550 /* Pods_SwiftCourseUnitTestUdemy_SwiftCourseUnitTestUdemyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCourseUnitTestUdemy_SwiftCourseUnitTestUdemyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D760DEA40B70377E613B06 /* Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests/Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC63EF4FBF2E50F2E8DE1F24 /* Pods_SwiftCourseUnitTestUdemy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCourseUnitTestUdemy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0655D1297FED5F0067A837 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		EC0655D3297FED840067A837 /* TemperatureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureTest.swift; sourceTree = "<group>"; };
+		EC0655D5297FEF5F0067A837 /* StringManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringManager.swift; sourceTree = "<group>"; };
+		EC0655D7297FEFBC0067A837 /* StringManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringManagerTest.swift; sourceTree = "<group>"; };
+		EC0655DA298005D70067A837 /* ValidNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumber.swift; sourceTree = "<group>"; };
+		EC0655DD298008670067A837 /* ValidNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumberTest.swift; sourceTree = "<group>"; };
+		EC0655DF298010130067A837 /* Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add.swift; sourceTree = "<group>"; };
 		EC9B948B297EDD3B00C14E3D /* SwiftCourseUnitTestUdemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCourseUnitTestUdemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9B948E297EDD3B00C14E3D /* SwiftCourseUnitTestUdemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCourseUnitTestUdemyApp.swift; sourceTree = "<group>"; };
 		EC9B9490297EDD3B00C14E3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +72,8 @@
 		EC9B94A5297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCourseUnitTestUdemyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9B94A9297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCourseUnitTestUdemyUITests.swift; sourceTree = "<group>"; };
 		EC9B94AB297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCourseUnitTestUdemyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC9B94B9297EDE0700C14E3D /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		EC9B94BC297EE00800C14E3D /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3FA4DA730D84EDCEA6636E /* Pods_SwiftCourseUnitTestUdemy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FB82E7A15040CFEABC571B /* Pods_SwiftCourseUnitTestUdemyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +97,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23D66E92FE5C2A87FE061D6 /* Pods_SwiftCourseUnitTestUdemy_SwiftCourseUnitTestUdemyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7762198C355B06DB1DC9D97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B601AAC6035DE6F91D31ADC /* Pods-SwiftCourseUnitTestUdemy.debug.xcconfig */,
+				216318B38943B7CFDF35724C /* Pods-SwiftCourseUnitTestUdemy.release.xcconfig */,
+				65D4B8EBC68750AAA22F602F /* Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests.debug.xcconfig */,
+				B3D760DEA40B70377E613B06 /* Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests.release.xcconfig */,
+				47DF611A2549D50BA75EA238 /* Pods-SwiftCourseUnitTestUdemyTests.debug.xcconfig */,
+				372F4A3D44B7EF9157EB7260 /* Pods-SwiftCourseUnitTestUdemyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E92AA49C826FDC0663510BB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC63EF4FBF2E50F2E8DE1F24 /* Pods_SwiftCourseUnitTestUdemy.framework */,
+				A4DFF4966AF5E9AF9C9F1550 /* Pods_SwiftCourseUnitTestUdemy_SwiftCourseUnitTestUdemyUITests.framework */,
+				3941B1585203CDCCED6E8517 /* Pods_SwiftCourseUnitTestUdemyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC0655D9298005B50067A837 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				EC0655DA298005D70067A837 /* ValidNumber.swift */,
+				EC0655DF298010130067A837 /* Add.swift */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		EC0655DC298008500067A837 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				EC0655DD298008670067A837 /* ValidNumberTest.swift */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
 		EC9B9482297EDD3B00C14E3D = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +152,8 @@
 				EC9B949E297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyTests */,
 				EC9B94A8297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyUITests */,
 				EC9B948C297EDD3B00C14E3D /* Products */,
+				C7762198C355B06DB1DC9D97 /* Pods */,
+				E92AA49C826FDC0663510BB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +170,8 @@
 		EC9B948D297EDD3B00C14E3D /* SwiftCourseUnitTestUdemy */ = {
 			isa = PBXGroup;
 			children = (
+				EC0655D9298005B50067A837 /* mock */,
+				EC9B94B8297EDDB000C14E3D /* xctest */,
 				EC9B948E297EDD3B00C14E3D /* SwiftCourseUnitTestUdemyApp.swift */,
 				EC9B9490297EDD3B00C14E3D /* ContentView.swift */,
 				EC9B9492297EDD3D00C14E3D /* Assets.xcassets */,
@@ -113,6 +191,8 @@
 		EC9B949E297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyTests */ = {
 			isa = PBXGroup;
 			children = (
+				EC0655DC298008500067A837 /* mock */,
+				EC9B94BB297EDF6100C14E3D /* xctest */,
 				EC9B949F297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyTests.swift */,
 			);
 			path = SwiftCourseUnitTestUdemyTests;
@@ -127,6 +207,26 @@
 			path = SwiftCourseUnitTestUdemyUITests;
 			sourceTree = "<group>";
 		};
+		EC9B94B8297EDDB000C14E3D /* xctest */ = {
+			isa = PBXGroup;
+			children = (
+				EC9B94B9297EDE0700C14E3D /* Calculator.swift */,
+				EC0655D1297FED5F0067A837 /* Temperature.swift */,
+				EC0655D5297FEF5F0067A837 /* StringManager.swift */,
+			);
+			path = xctest;
+			sourceTree = "<group>";
+		};
+		EC9B94BB297EDF6100C14E3D /* xctest */ = {
+			isa = PBXGroup;
+			children = (
+				EC9B94BC297EE00800C14E3D /* CalculatorTests.swift */,
+				EC0655D3297FED840067A837 /* TemperatureTest.swift */,
+				EC0655D7297FEFBC0067A837 /* StringManagerTest.swift */,
+			);
+			path = xctest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC9B94AF297EDD3D00C14E3D /* Build configuration list for PBXNativeTarget "SwiftCourseUnitTestUdemy" */;
 			buildPhases = (
+				46F57BD59689425BB35F1368 /* [CP] Check Pods Manifest.lock */,
 				EC9B9487297EDD3B00C14E3D /* Sources */,
 				EC9B9488297EDD3B00C14E3D /* Frameworks */,
 				EC9B9489297EDD3B00C14E3D /* Resources */,
@@ -151,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC9B94B2297EDD3D00C14E3D /* Build configuration list for PBXNativeTarget "SwiftCourseUnitTestUdemyTests" */;
 			buildPhases = (
+				7A0E203DEB15DFE5AB67E382 /* [CP] Check Pods Manifest.lock */,
 				EC9B9497297EDD3D00C14E3D /* Sources */,
 				EC9B9498297EDD3D00C14E3D /* Frameworks */,
 				EC9B9499297EDD3D00C14E3D /* Resources */,
@@ -169,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC9B94B5297EDD3D00C14E3D /* Build configuration list for PBXNativeTarget "SwiftCourseUnitTestUdemyUITests" */;
 			buildPhases = (
+				94DAAEFDEDA0B393475C9990 /* [CP] Check Pods Manifest.lock */,
 				EC9B94A1297EDD3D00C14E3D /* Sources */,
 				EC9B94A2297EDD3D00C14E3D /* Frameworks */,
 				EC9B94A3297EDD3D00C14E3D /* Resources */,
@@ -252,6 +355,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46F57BD59689425BB35F1368 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCourseUnitTestUdemy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0E203DEB15DFE5AB67E382 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCourseUnitTestUdemyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94DAAEFDEDA0B393475C9990 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC9B9487297EDD3B00C14E3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +431,11 @@
 			files = (
 				EC9B9491297EDD3B00C14E3D /* ContentView.swift in Sources */,
 				EC9B948F297EDD3B00C14E3D /* SwiftCourseUnitTestUdemyApp.swift in Sources */,
+				EC0655E0298010130067A837 /* Add.swift in Sources */,
+				EC0655D2297FED5F0067A837 /* Temperature.swift in Sources */,
+				EC0655DB298005D70067A837 /* ValidNumber.swift in Sources */,
+				EC9B94BA297EDE0700C14E3D /* Calculator.swift in Sources */,
+				EC0655D6297FEF5F0067A837 /* StringManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +443,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0655D8297FEFBC0067A837 /* StringManagerTest.swift in Sources */,
 				EC9B94A0297EDD3D00C14E3D /* SwiftCourseUnitTestUdemyTests.swift in Sources */,
+				EC9B94BD297EE00800C14E3D /* CalculatorTests.swift in Sources */,
+				EC0655D4297FED840067A837 /* TemperatureTest.swift in Sources */,
+				EC0655DE298008670067A837 /* ValidNumberTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +592,7 @@
 		};
 		EC9B94B0297EDD3D00C14E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B601AAC6035DE6F91D31ADC /* Pods-SwiftCourseUnitTestUdemy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +621,7 @@
 		};
 		EC9B94B1297EDD3D00C14E3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216318B38943B7CFDF35724C /* Pods-SwiftCourseUnitTestUdemy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +650,7 @@
 		};
 		EC9B94B3297EDD3D00C14E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DF611A2549D50BA75EA238 /* Pods-SwiftCourseUnitTestUdemyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +670,7 @@
 		};
 		EC9B94B4297EDD3D00C14E3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372F4A3D44B7EF9157EB7260 /* Pods-SwiftCourseUnitTestUdemyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +690,7 @@
 		};
 		EC9B94B6297EDD3D00C14E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D4B8EBC68750AAA22F602F /* Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +708,7 @@
 		};
 		EC9B94B7297EDD3D00C14E3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D760DEA40B70377E613B06 /* Pods-SwiftCourseUnitTestUdemy-SwiftCourseUnitTestUdemyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
